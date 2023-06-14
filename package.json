@@ -1,0 +1,23 @@
+{
+  "name": "pawspace",
+  "version": "1.0.0",
+  "description": "backend admin code ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "author": "Sahil Kalaigar",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1172.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "firebase-admin": "^11.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.4.0",
+    "razorpay": "^2.8.3",
+    "twilio": "^3.78.0"
+  }
+}
